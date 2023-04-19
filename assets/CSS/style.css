@@ -44,7 +44,10 @@ a:hover {
 .carousel-item>img {
     max-height: 80vh;
 }
-
+#modalContainer{
+    /* display: none;
+     */
+}
 .containerFormulario {
     display: flex;
     flex-direction: row;
