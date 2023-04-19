@@ -1,0 +1,76 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    background-size: 30% 18em;
+    background-repeat: repeat;
+    height: 9em;
+}
+
+#imgLogoN {
+    display: flex;
+    height: 7em;
+}
+
+#imagenLogoVaso {
+    width: 100%;
+    border-top: 0ch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav {
+    background-color: rgb(146, 114, 74);
+}
+
+a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(164, 136, 101);
+}
+
+#titleRestaurant {
+    text-align: center;
+}
+
+.carousel-item>img {
+    max-height: 80vh;
+}
+
+.containerFormulario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #070707;
+    height: 50%;
+    width: 50%;
+    border-radius: 5%;
+    color: white;
+}
+
+footer {
+    background-size: 100% 23em;
+    height: 10em;
+    color: rgb(253, 249, 249);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/fondo-1.jpg");
+}
+
+@media screen and (max-width: 576px) {
+    #comunicar,
+    #reservar {
+        display: none;
+    }
+}
