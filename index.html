@@ -106,7 +106,7 @@
       <div class="row justify-content-center">
         <!--MODAL uno-->
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-          <img src="./assets/img/bebidas.jpg" alt="Imagen" data-toggle="modal" data-target="#myModal1"
+          <img src="./assets/img/bebidas.jpg" alt="Imagen" data-bs-toggle="modal" data-bs-target="#myModal1"
             class="img-fluid w-100">
           <div class="card-body">
             <h5 class="card-title text-center">BEBIDAS</h5>
@@ -120,7 +120,7 @@
               <div class="modal-content text-bg-dark">
                 <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLabel1">BEBIDAS</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
@@ -136,7 +136,7 @@
         </div>
         <!--MODAL dos-->
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-          <img src="./assets/img/tablas.jpg" alt="Imagen" data-toggle="modal" data-target="#myModal2"
+          <img src="./assets/img/tablas.jpg" alt="Imagen" data-bs-toggle="modal" data-bs-target="#myModal2"
             class="img-fluid w-100">
           <h5 class="card-title text-center">TABLAS</h5>
           <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam distinctio
@@ -147,7 +147,7 @@
               <div class="modal-content text-bg-dark">
                 <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLabel2">TABLAS</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
@@ -163,7 +163,7 @@
         </div>
         <!--MODAL tres-->
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-          <img src="./assets/img/shop.jpeg" alt="Imagen" data-toggle="modal" data-target="#myModal3"
+          <img src="./assets/img/shop.jpeg" alt="Imagen" data-bs-toggle="modal" data-bs-target="#myModal3"
             class="img-fluid w-100">
           <h5 class="card-title text-center">SHOP</h5>
           <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam distinctio
@@ -174,7 +174,7 @@
               <div class="modal-content text-bg-dark">
                 <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLabel3">SHOP</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
@@ -277,8 +277,20 @@
     </div>
     <br>
     <div class="container">
-      <div id="carouselExampleCaptions" class="carousel slide d-block d-md-block d-lg-block d-xl-block d-xxl-block"
-        data-bs-ride="false">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/Nchorillana.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/Nvino.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/Nmojito.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      <!-- <div id="carouselExampleCaptions" class="carousel slide d-block d-md-block d-lg-block d-xl-block d-xxl-block">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
@@ -320,7 +332,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Siguiente</span>
         </button>
-      </div>
+      </div> -->
     </div>
     <br><br>
   </main>
